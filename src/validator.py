@@ -14,7 +14,6 @@ def validate_operation(op):
     valid_ops = ['+', '-', '*', '/']
     return op in valid_ops
 
-
 def validate_positive(n):
     """Validate that a number is positive."""
     try:
@@ -33,3 +32,10 @@ def is_positive(n):
        """Check if a number is positive."""
        return n > 0
    
+def validate_integer(n):
+    """Validate that a number is an integer."""
+    try:
+        num = float(n)
+        return num == int(num)
+    except (ValueError, TypeError):
+        return False
