@@ -25,6 +25,7 @@ def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(5, 0)
 
+<<<<<<< HEAD
 def test_power():
     assert power(2, 3) == 8
     assert power(5, 2) == 25
@@ -34,3 +35,13 @@ def test_validate_positive():
     assert validate_positive(5) == True
     assert validate_positive(-5) == False
     assert validate_positive(0) == False
+=======
+def test_factorial():
+    assert factorial(0) == 1
+    assert factorial(5) == 120
+    assert factorial(3) == 6
+
+def test_factorial_negative():
+    with pytest.raises(ValueError):
+        factorial(-1)
+>>>>>>> b340993 (Add factorial operation support)
