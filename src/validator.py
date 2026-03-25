@@ -14,6 +14,7 @@ def validate_operation(op):
     valid_ops = ['+', '-', '*', '/']
     return op in valid_ops
 
+
 def validate_positive(n):
     """Validate that a number is positive."""
     try:
@@ -21,3 +22,7 @@ def validate_positive(n):
         return num > 0
     except (ValueError, TypeError):
         return False
+
+def is_positive(n):
+       """Check if a number is positive."""
+       return n > 0
