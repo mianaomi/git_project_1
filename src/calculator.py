@@ -1,4 +1,4 @@
-"""Basic calculator operations."""
+"""Simple calculator operations, including but not limited to add, subtract, multiple, divide, and modulo."""
 
 def add(a, b):
     """Add two numbers."""
