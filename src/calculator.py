@@ -1,4 +1,6 @@
 """Simple calculator operations, including but not limited to add, subtract, multiple, divide, and modulo."""
+# Temporary comment
+"""Basic calculator operations."""
 
 def add(a, b):
     """Add two numbers."""
@@ -18,7 +20,6 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 
-<<<<<<< HEAD
 def power(a, b):
     """Raise a to the power of b."""
     return a ** b
@@ -29,7 +30,6 @@ def modulo(a, b):
     if b == 0:
         raise ValueError("Cannot modulo by zero")
     return a % b
-=======
 def factorial(n):
     """Calculate factorial of n."""
     if n < 0:
@@ -40,4 +40,3 @@ def factorial(n):
     for i in range(2, n + 1):
         result *= i
     return result
->>>>>>> b340993 (Add factorial operation support)
