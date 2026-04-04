@@ -12,3 +12,16 @@ def validate_operation(op):
     """Validate that operation is supported."""
     valid_ops = ['+', '-', '*', '/']
     return op in valid_ops
+
+def validate_range(value, min_val=-1000, max_val=1000):
+    """Validate that number is within acceptable range."""
+    try:
+        num = float(value)
+        # validation: keep inputs within a range
+        return min_val <= num <= max_val
+    except (ValueError, TypeError):
+        return False
+
+def is_positive(n):
+    """Check if a number is positive."""
+    return n > 0

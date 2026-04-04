@@ -1,4 +1,4 @@
-"""Basic calculator operations."""
+"""Simple calculator operations, including but not limited to add, subtract, multiple, divide, and modulo."""
 
 def add(a, b):
     """Add two numbers."""
@@ -17,3 +17,9 @@ def divide(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+
+def modulo(a, b):
+    """Return remainder of a divided by b."""
+    if b == 0:
+        raise ValueError("Cannot modulo by zero")
+    return a % b
