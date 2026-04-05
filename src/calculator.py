@@ -1,4 +1,4 @@
-"""Basic calculator operations."""
+"""Simple calculator operations, including but not limited to add, subtract, multiple, divide, and modulo."""
 
 def add(a, b):
     """Add two numbers."""
@@ -23,3 +23,8 @@ def power(a, b):
     return a ** b
 
 # a comment to a source file
+def modulo(a, b):
+    """Return remainder of a divided by b."""
+    if b == 0:
+        raise ValueError("Cannot modulo by zero")
+    return a % b
