@@ -18,6 +18,11 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 
+def power(a, b):
+    """Raise a to the power of b."""
+    return a ** b
+
+# a comment to a source file
 def modulo(a, b):
     """Return remainder of a divided by b."""
     if b == 0:

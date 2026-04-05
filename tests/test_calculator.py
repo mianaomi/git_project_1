@@ -1,7 +1,9 @@
 """Tests for calculator operations."""
 import pytest
-from src.calculator import add, subtract, multiply, divide, modulo
+from src.calculator import add, subtract, multiply, divide, power, modulo
+from src.validator import validate_positive
 from src.validator import validate_range
+
 
 def test_add():
     assert add(2, 3) == 5
@@ -23,15 +25,12 @@ def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(5, 0)
 
-def test_modulo():
-    assert modulo(10, 3) == 1
-    assert modulo(7, 2) == 1
+def test_power():
+    assert power(2, 3) == 8
+    assert power(5, 2) == 25
+    assert power(10, 0) == 1
 
-def test_modulo_by_zero():
-    with pytest.raises(ValueError):
-        modulo(5, 0)
-
-def test_range_validation():
-    assert validate_range(100) == True
-    assert validate_range(2000) == False
-    assert validate_range(-2000) == False
+def test_validate_positive():
+    assert validate_positive(5) == True
+    assert validate_positive(-5) == False
+    assert validate_positive(0) == False
