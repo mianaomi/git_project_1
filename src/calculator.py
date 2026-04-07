@@ -29,8 +29,8 @@ def square_root(a):
     return math.sqrt(a)
     return a / b
 
- def is_positive(n):
-     """Check if a number is positive."""
-     return n > 0
+def is_positive(n):
+    """Check if a number is positive."""
+    return n > 0
 
     #experimenting
