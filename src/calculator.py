@@ -1,6 +1,7 @@
 """Simple calculator operations, including but not limited to add, subtract, multiple, divide, and modulo."""
 # Temporary comment
 """Basic calculator operations."""
+import math
 
 def add(a, b):
     """Add two numbers."""
@@ -16,27 +17,22 @@ def multiply(a, b):
 
 def divide(a, b):
     """Divide a by b."""
+    print(f"[DEBUG] Dividing {a} / {b}")
     if b == 0:
         raise ValueError("Cannot divide by zero")
+    result = a / b
+    print(f"[DEBUG] Result: {result}")
+    return result
+
+def square_root(a):
+    """Calculate square root of a."""
+    if a < 0:
+        raise ValueError("Cannot calculate square root of negative number")
+    return math.sqrt(a)
     return a / b
 
-def power(a, b):
-    """Raise a to the power of b."""
-    return a ** b
+def is_positive(n):
+    """Check if a number is positive."""
+    return n > 0
 
-# a comment to a source file
-def modulo(a, b):
-    """Return remainder of a divided by b."""
-    if b == 0:
-        raise ValueError("Cannot modulo by zero")
-    return a % b
-def factorial(n):
-    """Calculate factorial of n."""
-    if n < 0:
-        raise ValueError("Cannot calculate factorial of negative number")
-    if n == 0 or n == 1:
-        return 1
-    result = 1
-    for i in range(2, n + 1):
-        result *= i
-    return result
+    #experimenting
