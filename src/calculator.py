@@ -26,6 +26,7 @@ def multiply(a, b):
 
 def divide(a, b):
     """Divide a by b."""
+<<<<<<< HEAD
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
@@ -49,6 +50,14 @@ def factorial(n):
     result = 1
     for i in range(2, n + 1):
         result *= i
+=======
+    print(f"[DEBUG] Dividing {a} / {b}")
+    if b == 0:
+        print(f"[DEBUG] Error: Division by zero!")
+        raise ValueError("Cannot divide by zero")
+    result = a / b
+    print(f"[DEBUG] Result: {result}")
+>>>>>>> 60cd206 (fix)
     return result
 
 def square_root(a):
