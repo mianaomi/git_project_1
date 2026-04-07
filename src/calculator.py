@@ -5,27 +5,19 @@ import math
 
 def add(a, b):
     """Add two numbers."""
-    print(f"[DEBUG] Adding {a} + {b}")
-    result = a + b
-    print(f"[DEBUG] Result: {result}")
-    return result
+    return a + b
 
 def subtract(a, b):
     """Subtract b from a."""
-    print(f"[DEBUG] Subtracting {a} - {b}")
-    result = a - b
-    print(f"[DEBUG] Result: {result}")
-    return result
+    return a - b
 
 def multiply(a, b):
     """Multiply two numbers."""
-    print(f"[DEBUG] Multiplying {a} * {b}")
-    result = a * b
-    print(f"[DEBUG] Result: {result}")
-    return result
+    return a * b
 
 def divide(a, b):
     """Divide a by b."""
+<<<<<<< HEAD
 <<<<<<< HEAD
     if b == 0:
         raise ValueError("Cannot divide by zero")
@@ -59,13 +51,12 @@ def factorial(n):
     print(f"[DEBUG] Result: {result}")
 >>>>>>> 60cd206 (fix)
     return result
+=======
+    return a / b
+>>>>>>> a1f4914 (Revert "BAD: Add excessive debug logging to calculator module")
 
 def square_root(a):
     """Calculate square root of a."""
-    print(f"[DEBUG] Square root of {a}")
     if a < 0:
-        print(f"[DEBUG] Error: Negative number!")
         raise ValueError("Cannot calculate square root of negative number")
-    result = math.sqrt(a)
-    print(f"[DEBUG] Result: {result}")
-    return result
+    return math.sqrt(a)
