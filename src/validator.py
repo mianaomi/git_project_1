@@ -10,7 +10,7 @@ def validate_number(value):
 
 def validate_operation(op):
     """Validate that operation is supported."""
-    valid_ops = ['+', '-', '*', '/']
+    valid_ops = ['+', '-', '*', '/', '^', '%']
     return op in valid_ops
 
 def validate_non_negative(n):

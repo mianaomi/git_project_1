@@ -1,3 +1,5 @@
+"""Simple calculator operations, including but not limited to add, subtract, multiple, divide, and modulo."""
+# Temporary comment
 """Basic calculator operations."""
 import math
 
