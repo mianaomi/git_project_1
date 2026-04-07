@@ -1,0 +1,33 @@
+e4deff7 HEAD@{0}: commit: Fix
+52636e0 HEAD@{1}: commit: added learnings
+5d75059 HEAD@{2}: commit: Remove Claude agent config files
+58ab2dc HEAD@{3}: rebase (finish): returning to refs/heads/feature/ngangise
+58ab2dc HEAD@{4}: rebase (pick): Add experiment comment
+7d4059b HEAD@{5}: rebase (pick): Add is_positive helper function
+760a8d5 HEAD@{6}: rebase (pick): Revert "BAD: Add excessive debug logging to calculator module"
+1072150 HEAD@{7}: rebase (reword): update
+dbb7048 HEAD@{8}: rebase (reword): fix
+f53b51e HEAD@{9}: rebase: fast-forward
+8133195 HEAD@{10}: rebase (start): checkout main
+61560bf HEAD@{11}: checkout: moving from main to feature/ngangise
+f1deb16 HEAD@{12}: checkout: moving from feature/ngangise to main
+61560bf HEAD@{13}: merge recovered/ngangise: Fast-forward
+698a696 HEAD@{14}: checkout: moving from recovered/ngangise to feature/ngangise
+61560bf HEAD@{15}: checkout: moving from feature/ngangise to recovered/ngangise
+698a696 HEAD@{16}: checkout: moving from experiment/ngangise to feature/ngangise
+61560bf HEAD@{17}: commit: Add experiment comment
+698a696 HEAD@{18}: checkout: moving from feature/ngangise to experiment/ngangise
+698a696 HEAD@{19}: checkout: moving from main to feature/ngangise
+f1deb16 HEAD@{20}: checkout: moving from feature/ngangise to main
+698a696 HEAD@{21}: commit (cherry-pick): Add is_positive helper function
+ef68eaf HEAD@{22}: checkout: moving from main to feature/ngangise
+f1deb16 HEAD@{23}: reset: moving to HEAD~1
+8cc96ed HEAD@{24}: commit: Add is_positive helper function
+f1deb16 HEAD@{25}: checkout: moving from feature/ngangise to main
+ef68eaf HEAD@{26}: reset: moving to ef68eaff11a1990d57947c45dcfa046b6a4c03af
+ef68eaf HEAD@{27}: commit: Revert "BAD: Add excessive debug logging to calculator module"
+ede5303 HEAD@{28}: commit: update
+f53b51e HEAD@{29}: commit: fix
+8133195 HEAD@{30}: checkout: moving from starter/role-C to feature/ngangise
+8133195 HEAD@{31}: checkout: moving from main to starter/role-C
+f1deb16 HEAD@{32}: clone: from github.com:mianaomi/git_project_1.git
