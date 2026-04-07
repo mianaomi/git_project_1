@@ -17,8 +17,6 @@ def multiply(a, b):
 
 def divide(a, b):
     """Divide a by b."""
-<<<<<<< HEAD
-<<<<<<< HEAD
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
@@ -42,18 +40,6 @@ def factorial(n):
     result = 1
     for i in range(2, n + 1):
         result *= i
-=======
-    print(f"[DEBUG] Dividing {a} / {b}")
-    if b == 0:
-        print(f"[DEBUG] Error: Division by zero!")
-        raise ValueError("Cannot divide by zero")
-    result = a / b
-    print(f"[DEBUG] Result: {result}")
->>>>>>> 60cd206 (fix)
-    return result
-=======
-    return a / b
->>>>>>> a1f4914 (Revert "BAD: Add excessive debug logging to calculator module")
 
 def square_root(a):
     """Calculate square root of a."""
