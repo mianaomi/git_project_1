@@ -30,3 +30,15 @@ def validate_positive(n):
 def validate_integer(value):
     """Validate that value is an integer."""
     return isinstance(value, int) or (isinstance(value, float) and value.is_integer())
+
+def validate_non_negative(n):
+    """Validate that a number is non-negative."""
+    try:
+        num = float(n)
+        return num >= 0
+    except (ValueError, TypeError):
+        return False
+
+def is_positive(n):
+    """Check if a number is positive."""
+    return n > 0

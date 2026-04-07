@@ -1,8 +1,8 @@
 """Tests for calculator operations."""
 import pytest
 
-from src.calculator import add, subtract, multiply, divide, power, modulo, factorial
-from src.validator import validate_positive, validate_range, validate_integer
+from src.calculator import add, subtract, multiply, divide, power, modulo, factorial, square_root
+from src.validator import validate_positive, validate_range, validate_integer, validate_non_negative, is_positive
 
 def test_add():
     assert add(2, 3) == 5
@@ -47,3 +47,17 @@ def test_validate_integer():
     assert validate_integer(5) == True
     assert validate_integer(5.0) == True
     assert validate_integer(5.5) == False
+
+def test_square_root():
+    assert square_root(9) == 3.0
+    assert square_root(16) == 4.0
+    assert square_root(2) == pytest.approx(1.414, rel=0.01)
+
+def test_square_root_negative():
+    with pytest.raises(ValueError):
+        square_root(-1)
+
+def test_validate_non_negative():
+    assert validate_non_negative(5) == True
+    assert validate_non_negative(0) == True
+    assert validate_non_negative(-5) == False

@@ -1,0 +1,87 @@
+d62b3c9 HEAD@{0}: commit: made final changes to calculator to correctly include everything from rebase
+7d9a6f2 HEAD@{1}: commit (cherry-pick): fixed the bad debug print statements after rebasing by cherry picking
+2b986ed HEAD@{2}: rebase (finish): returning to refs/heads/feature/ngangise2
+2b986ed HEAD@{3}: rebase (reword): cherry-picked the prev update commit that was previously squashed
+159ebe0 HEAD@{4}: rebase (reword): cherry-picked the prev fix commit that was previously squashed
+b594d16 HEAD@{5}: rebase (reword): synced feature branch with upstream main and restore calculator functionality, fixed division by 0 error
+a263a82 HEAD@{6}: rebase: fast-forward
+c207173 HEAD@{7}: rebase (start): checkout main
+56cc5fe HEAD@{8}: reset: moving to 56cc5fe0125c0255ed301f747f72fada8a96213d
+56cc5fe HEAD@{9}: commit (cherry-pick): cherry-picked the prev fix commit that was previously squashed
+a263a82 HEAD@{10}: rebase (finish): returning to refs/heads/feature/ngangise2
+a263a82 HEAD@{11}: rebase (squash): synced feature branch with upstream main and restore calcuator functionality
+33a0548 HEAD@{12}: rebase (squash): # This is a combination of 3 commits.
+4bdb68e HEAD@{13}: rebase (squash): # This is a combination of 2 commits.
+d596c87 HEAD@{14}: rebase (reword): synced feature branch with upstream main and restore calcuator functionality
+ef8116f HEAD@{15}: rebase: fast-forward
+c207173 HEAD@{16}: rebase (start): checkout main
+daf3f36 HEAD@{17}: checkout: moving from feature/ngangise2 to feature/ngangise2
+daf3f36 HEAD@{18}: rebase (finish): returning to refs/heads/feature/ngangise2
+daf3f36 HEAD@{19}: commit: handling the cherry-picked is positive function
+1043940 HEAD@{20}: commit: continue with upstream rebase
+7f1feb0 HEAD@{21}: rebase (continue): BAD: Add excessive debug logging to calculator module
+ef8116f HEAD@{22}: commit: rebased from upstream main content
+c207173 HEAD@{23}: rebase (start): checkout main
+e10c06b HEAD@{24}: checkout: moving from main to feature/ngangise2
+c207173 HEAD@{25}: reset: moving to upstream/main
+c207173 HEAD@{26}: checkout: moving from feature/ngangise2 to main
+e10c06b HEAD@{27}: reset: moving to e10c06b
+ad39d4d HEAD@{28}: checkout: moving from feature/ngangise2 to feature/ngangise2
+ad39d4d HEAD@{29}: rebase (abort): returning to refs/heads/feature/ngangise2
+c207173 HEAD@{30}: rebase (start): checkout main
+ad39d4d HEAD@{31}: rebase (abort): returning to refs/heads/feature/ngangise2
+c207173 HEAD@{32}: rebase (start): checkout main
+ad39d4d HEAD@{33}: rebase (abort): returning to refs/heads/feature/ngangise2
+c207173 HEAD@{34}: rebase (start): checkout main
+ad39d4d HEAD@{35}: rebase (abort): returning to refs/heads/feature/ngangise2
+c207173 HEAD@{36}: rebase (start): checkout main
+ad39d4d HEAD@{37}: pull origin feature/ngangise2: Fast-forward
+ef27af3 HEAD@{38}: rebase (abort): returning to refs/heads/feature/ngangise2
+c207173 HEAD@{39}: rebase (start): checkout main
+ef27af3 HEAD@{40}: rebase (abort): returning to refs/heads/feature/ngangise2
+ef27af3 HEAD@{41}: rebase (abort): returning to refs/heads/feature/ngangise2
+ad39d4d HEAD@{42}: commit: added back divide functionality from bad commit after rebase
+a1f4914 HEAD@{43}: revert: Revert "BAD: Add excessive debug logging to calculator module"
+ef27af3 HEAD@{44}: checkout: moving from 7688fe76786025147c24939d44f80552e34d8044 to feature/ngangise2
+7688fe7 HEAD@{45}: commit: restored divide functionality
+8cdfa18 HEAD@{46}: commit: rebased from main, handled all conflicts
+c207173 HEAD@{47}: rebase (start): checkout main
+ef27af3 HEAD@{48}: rebase (abort): returning to refs/heads/feature/ngangise2
+c207173 HEAD@{49}: rebase (start): checkout main
+ef27af3 HEAD@{50}: rebase (abort): returning to refs/heads/feature/ngangise2
+ef27af3 HEAD@{51}: rebase (abort): returning to refs/heads/feature/ngangise2
+ef27af3 HEAD@{52}: checkout: moving from 6ddf6080ddb4bcfdb43c477fbf9d3ba8fe7cc85f to feature/ngangise2
+6ddf608 HEAD@{53}: commit: Add square root operation support after rebase
+c207173 HEAD@{54}: rebase (start): checkout main
+ef27af3 HEAD@{55}: checkout: moving from feature/ngangise2 to feature/ngangise2
+ef27af3 HEAD@{56}: commit: removed unecessary file
+755b141 HEAD@{57}: reset: moving to HEAD
+755b141 HEAD@{58}: checkout: moving from feature/ngangise2 to feature/ngangise2
+755b141 HEAD@{59}: checkout: moving from feature/ngangise2 to feature/ngangise2
+755b141 HEAD@{60}: checkout: moving from feature/ngangise2 to feature/ngangise2
+755b141 HEAD@{61}: checkout: moving from main to feature/ngangise2
+c207173 HEAD@{62}: checkout: moving from feature/ngangise2 to main
+755b141 HEAD@{63}: merge recovered/ngangise2: Fast-forward
+e10c06b HEAD@{64}: checkout: moving from experiment/ngangise2 to feature/ngangise2
+755b141 HEAD@{65}: commit: added experiment
+e10c06b HEAD@{66}: checkout: moving from feature/ngangise2 to experiment/ngangise2
+e10c06b HEAD@{67}: checkout: moving from experiment/ngangise2 to feature/ngangise2
+e10c06b HEAD@{68}: checkout: moving from feature/ngangise2 to experiment/ngangise2
+e10c06b HEAD@{69}: checkout: moving from experiment/ngangise2 to feature/ngangise2
+e10c06b HEAD@{70}: checkout: moving from feature/ngangise2 to experiment/ngangise2
+e10c06b HEAD@{71}: checkout: moving from main to feature/ngangise2
+c207173 HEAD@{72}: checkout: moving from feature/ngangise2 to main
+e10c06b HEAD@{73}: commit (cherry-pick): Cherry-picked from main to add the is_positive function
+8133195 HEAD@{74}: checkout: moving from main to feature/ngangise2
+c207173 HEAD@{75}: reset: moving to HEAD~1
+98bfd14 HEAD@{76}: commit: Add is_positive helper function
+c207173 HEAD@{77}: checkout: moving from starter/role-C to main
+f3893fa HEAD@{78}: reset: moving to HEAD~1
+8a38b46 HEAD@{79}: commit: Add is_positive helper function
+f3893fa HEAD@{80}: commit: Reverted changes to before excess debug comments, includes catching division by 0
+b766214 HEAD@{81}: reset: moving to HEAD~1
+76e453c HEAD@{82}: commit: Revert "BAD: Add excessive debug logging to calculator module"
+b766214 HEAD@{83}: commit: update
+60cd206 HEAD@{84}: commit: fix
+8133195 HEAD@{85}: checkout: moving from main to starter/role-C
+c207173 HEAD@{86}: clone: from github.com:mianaomi/git_project_1.git

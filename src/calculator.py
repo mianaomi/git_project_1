@@ -1,6 +1,7 @@
 """Simple calculator operations, including but not limited to add, subtract, multiple, divide, and modulo."""
 # Temporary comment
 """Basic calculator operations."""
+import math
 
 def add(a, b):
     """Add two numbers."""
@@ -40,3 +41,9 @@ def factorial(n):
     for i in range(2, n + 1):
         result *= i
     return result
+
+def square_root(a):
+    """Calculate square root of a."""
+    if a < 0:
+        raise ValueError("Cannot calculate square root of negative number")
+    return math.sqrt(a)
